@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./images/bg_img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-size: 30px;
+    text-align: center;
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin:5px ;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color:slateblue ;
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: 0.8;
+}
+.clock #AmPm{
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    font-size: 20px;
+    background-color: red;
+    height: 30px;
+}
+.date{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border: 2px solid white;
+    background-color: darkblue;
+    opacity: 0.8;
+    display: flex;
+    margin-top: 20px;
+    padding: 3px;
+}
+.day{
+    color: white;
+    background-color: darkblue;
+    border: 2px solid white;
+    margin: 5px;
+    padding: 2px;
+    opacity: 0.8;
+    letter-spacing: 2px;
+}
